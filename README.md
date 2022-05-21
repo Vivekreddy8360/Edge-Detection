@@ -39,7 +39,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # Load the image, Convert to grayscale and remove noise
-image = cv2.imread("car.jpeg")
+image = cv2.imread("flower.jpeg")
 grayImage = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
 cv2.imshow("OriginalImage",image)
 cv2.imshow("GrayscaleImage",grayImage)
